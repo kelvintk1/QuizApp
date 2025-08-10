@@ -30,7 +30,7 @@ export default function ResultPage() {
   const percentage = totalPoints > 0 ? Math.round((score / totalPoints) * 100) : 0;
 
   return (
-    <div className='w-screen h-screen flex flex-col justify-center items-center'>
+    <div className='w-screen h-full flex flex-col justify-center items-center'>
       <div className='w-screen flex flex-col items-center mt-7'>
         <span className='text-4xl lg:text-5xl font-bold text-center'>Quiz Completed</span>
         <span className='-mt-30 flex'>
