@@ -1,6 +1,6 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
-import StartPage from './pages/startPage'
+import StartPage from './pages/StartPage'
 import ResultPage from './pages/ResultPage'
 import QuestionsPage from './pages/QuestionsPage'
 import DarkVeil from './components/DarkVeil';
